@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> <!--displays website icon on the browser-->
+  <link rel="stylesheet" href="style.css"> <!--links css file to my html file-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" /><!--external link for social media icons-->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!--external link for google font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">  
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+</head>
+<body>
+      <main class="container">
+            <div class="container__top">
+                  <img src="./images/logo.svg" alt="" srcset="" class="logo-image">
+                  <p class="launching"> <span>We are launching </span><b>soon!</b> </p>
+                  <p>Subscribe and get notified</p>
+
+                  <div class="container__top__email-info">
+                        <input type="email" id="email-field" spellcheck="false" name="email" placeholder="           Your email address..." >
+                        <i id="email-error"></i>
+                        <button onclick="validateEmail()" type="button">Notify Me</button>
+                        
+                  </div>
+
+            </div><!--end of container__top-->
+            
+            <div class="container__bottom">
+
+                  <div class="container__bottom__image">
+                         <img src="./images/illustration-dashboard.png" alt="" class="illustration-image">
+                  </div><!--end of container__bottom__image-->
+
+                  <div class="container__bottom__footer">
+                        <div class="container__bottom__footer__icons">
+                              <i class="fa-brands fa-facebook-f icon"></i>
+                              <i class="fa-brands fa-twitter icons"></i>
+                              <i class="fa-brands fa-instagram icons"></i>
+                        </div>
+                        
+                         <p> &copy; Copyright Ping. All rights reserved.</p>
+                  </div><!--end of container__bottom__footer-->
+
+            </div> <!--end of container__bottom-->
+
+      </main><!--end of container-->
+
+  
+ 
+      <script src="main.js"></script>
+</body>
+</html>
