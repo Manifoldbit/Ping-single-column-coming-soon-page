@@ -37,7 +37,7 @@ img {
 .container__top span {
   color: hsl(0, 0%, 59%);
 }
-.container__top p:first-of-type {
+.container__top h1 {
   font-size: 1.7rem;
   margin: 0 auto 0.5em auto;
 }
@@ -137,7 +137,7 @@ button:hover {
     max-width: 60%;
     margin: 0 auto;
   }
-  .container__top p:first-of-type {
+  .container__top h1 {
     font-size: 3em;
     margin: 0 auto 0.2em auto;
   }
