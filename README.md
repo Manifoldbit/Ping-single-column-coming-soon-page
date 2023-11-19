@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Manifoldbit/Ping-single-column-coming-soon-page.git]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://ping-single-column-coming-soon-page-pi.vercel.app/]
 
 ## My process
 
